@@ -2648,18 +2648,9 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+nav a.active{
+     background-color: gray;
+}
 body
 {
 background-image: url("13.jfif");
@@ -3406,7 +3397,9 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-
+nav a.active{
+     background-color: gray;
+}
 .banner-area{
     margin-top: 50px;
 }
