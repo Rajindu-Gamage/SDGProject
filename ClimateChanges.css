@@ -160,9 +160,9 @@ body {
   filter: blur(2px);
 }
   h2{
-  color: white;
-  font-size: 60px;
-  margin-left: 90px;
+  color: rgb(255, 255, 255);
+  font-size: 120px;
+  text-align: center;
   margin-top: -100px;
 
   
