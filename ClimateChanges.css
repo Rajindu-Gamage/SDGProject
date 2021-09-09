@@ -52,7 +52,7 @@ nav a:hover{
 }
 nav a.active{
      background-color: gray;
-}
+  }
 body{
   margin: 0;
   padding: 0;
@@ -811,6 +811,9 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
+nav a.active{
+     background-color: gray;
+  }
 .banner-area{
     width: 100%;
     height: 500px;
