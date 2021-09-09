@@ -1,58 +1,58 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body{
-    text-align:left;
-    background-color: gray;
+  text-align:left;
+  background-color: gray;
 }
 
 header{
-    height: 100px;
-    background:#262626 ;
-    width: 100%;
-    z-index: 12;
-    position: fixed;
+  height: 100px;
+  background:#262626 ;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
 }
 .logo{
-    width: 30%;
-    float: left;
-    line-height: 100px;
+  width: 30%;
+  float: left;
+  line-height: 100px;
 }
 .logo a{
-    margin-left: 0;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: bignoodletitling;
-    color: #fff;
-    letter-spacing: 2px;
+  margin-left: 0;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: bignoodletitling;
+  color: #fff;
+  letter-spacing: 2px;
 }
 .globe img{
-    float: left;
-    width: 75px;
-    height: auto;
-    margin-top: 20px;
+  float: left;
+  width: 75px;
+  height: auto;
+  margin-top: 20px;
 }
 
 nav{
-    float: right;
-    line-height: 100px;
+  float: right;
+  line-height: 100px;
 }
 nav a{
-    text-decoration: none;
-    font-family:bignoodletitling ;
-    letter-spacing: 3px;
-    font-size: 18px;
-    margin: 0 10px;
-    color: #fff;
+  text-decoration: none;
+  font-family:bignoodletitling ;
+  letter-spacing: 3px;
+  font-size: 18px;
+  margin: 0 10px;
+  color: #fff;
 }
 nav a:hover{
-    background-color: %fff;
-    color: #edd924;
+  background-color: %fff;
+  color: #edd924;
 }
 nav a.active{
      background-color: gray;
-  }
+}
 body{
   margin: 0;
   padding: 0;
@@ -162,7 +162,7 @@ body {
   h2{
   color: white;
   font-size: 60px;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-top: -100px;
 
   
@@ -184,7 +184,7 @@ body {
   box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
   border-bottom: solid 3px #bd6565;
   transition: .4s;
-    margin-left: 20px;
+    margin-left:220px;
     margin-top: -80px;
 }
 .btn:active{
@@ -262,36 +262,7 @@ body {
   box-shadow: 0 0 1px rgba(0,0,0,0.15);
   border-bottom: none; 
 }
-.btn4 {
-  display: inline-block;
-  text-decoration: none;
-  background: #ff8181;
-  color: #fff;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  border-radius: 50%;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle;
-  overflow: hidden;
-  box-shadow: 0px 2px 2px rgba(0,0,0,0.29);
-  border-bottom: solid 3px #bd6565;
-  transition: .4s;
-  margin-left: 20px;
-  margin-top: -80px;
-}
-.btn4:hover{
-  background-color: #bd4f57;
-  color: #fff;
-}
-.btn4:active{
-  transform: translateY(2px);
-  -ms-transform: translateY(2px);
-  -webkit-transform: translateY(2px);
-  box-shadow: 0 0 1px rgba(0,0,0,0.15);
-  border-bottom: none; 
-}
+
 
 .btn5{
   margin-top: 200px;
@@ -301,13 +272,24 @@ body {
   color: #fff;
   font-size: 25px;
   letter-spacing: 1.5px; 
-  margin-left: -520px;
+  margin-left: -800px;
 
+  
 }
 
 .btn5:hover{
   background-color: #4e70d4;
   color: #fff;
+}
+
+
+#container_4{
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 180px;
+
+
+  
 }
 
 /* Latest Publications */
@@ -497,7 +479,7 @@ img.hover-shadow {
 
 .leftcolumn {
   float: left;
-  width: 50%;
+  width: 60%;
  
 }
 
@@ -517,7 +499,7 @@ img.hover-shadow {
 
 
 .card {
-  background-color:  #062f69;
+  background-color:  #63634c;
   padding: 40px;
   margin-top: 20px;
 }
@@ -752,6 +734,8 @@ footer{
  line-height: normal;
  font-size: auto;
  }
+
+
 
 
 
@@ -2648,18 +2632,9 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+nav a.active{
+     background-color: gray;
+}
 body
 {
 background-image: url("13.jfif");
@@ -3406,7 +3381,9 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-
+nav a.active{
+     background-color: gray;
+}
 .banner-area{
     margin-top: 50px;
 }
