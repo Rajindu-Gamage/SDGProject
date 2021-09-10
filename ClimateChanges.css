@@ -65,12 +65,12 @@ body{
 }
 
 .content {
-  position: absolute;
-  top: 592px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  position: center;
+  top: 420px;
+  background: rgba(0, 0, 0, 0.404);
+  color: #f1f1f15e;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
 }
 
