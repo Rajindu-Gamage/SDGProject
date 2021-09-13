@@ -1340,7 +1340,9 @@ footer{
     margin: 0;
     padding: 0;
 }
-
+body{
+   background: linear-gradient(to bottom right, #1ac6ff, #ffffff, #ffff1a) ;
+}
 header{
     height: 100px;
     background:#262626 ;
