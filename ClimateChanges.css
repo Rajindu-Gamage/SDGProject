@@ -802,9 +802,7 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-nav a.active{
-     background-color: gray;
-  }
+
 .banner-area{
     width: 100%;
     height: 500px;
@@ -1102,9 +1100,7 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-nav a.active{
-     background-color: gray;
-  }
+
 body {font-family: Arial, Helvetica, sans-serif;}
 
 form {
@@ -1342,7 +1338,7 @@ footer{
 }
 body{
    background: linear-gradient(to bottom right, #1ac6ff, #ffffff, #ffff1a) ;
-
+}
 header{
     height: 100px;
     background:#262626 ;
@@ -1731,9 +1727,7 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-nav a.active{
-     background-color: gray;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
 *{
     margin: 0px;
@@ -3390,9 +3384,7 @@ nav a:hover{
     background-color: %fff;
     color: #edd924;
 }
-nav a.active{
-     background-color: gray;
-}
+
 .banner-area{
     margin-top: 50px;
 }
