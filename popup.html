@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 65%;
+  height: 850px;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-container.open-button{
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<!-- Trigger/Open The Modal -->
+<button style="font-size:17px;padding:12px 35px; align-items: right" id="open-button" onclick="openForm()">TAKE A QUIZ</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>QUIZ</h1>
+
+    <label for="msg">1. Which of the following activities contributes the most to carbon emissions globally?</label><br>
+    <input type="radio" name="question1">a) Agriculture<br>
+    <input type="radio" name="question1">b) Forestry<br>
+    <input type="radio" name="question1">c) Transport<br>
+    <input type="radio" name="question1" id="correct1">d) Energy supply<br><br>
+     <label for="msg">2. Which of these countries has the highest per capita carbon dioxide emissions?</label><br>
+    <input type="radio" name="question2">a) United States<br>
+    <input type="radio" name="question2" id="correct2">b) Australia<br>
+    <input type="radio" name="question2">c) Saudi Arabia<br>
+    <input type="radio" name="question2">d) China<br><br>
+     <label for="msg">3. Which of these greenhouse gases is most abundant in the atmosphere?</label><br>
+    <input type="radio" name="question3">a) Carbon dioxide<br>
+    <input type="radio" name="question3">b) Methane<br>
+    <input type="radio" name="question3">c) Nitrogen oxide<br>
+    <input type="radio" name="question3" id="correct3">d) Water vapour<br><br>
+     <label for="msg">4. Which of these natural events affect the climate?</label><br>
+    <input type="radio" name="question4">a) Thawing permafrost<br>
+    <input type="radio" name="question4">b) The path of the Earth around the sun<br>
+    <input type="radio" name="question4">c) Volcanic eruptions<br>
+    <input type="radio" name="question4" id="correct4">d) All of the above<br><br>
+     <label for="msg">5. What greenhouse gas was not present in the atmosphere in pre-industrial times (before 1750)?</label><br>
+    <input type="radio" name="question5" id="correct5">a) Trichlorofluoromethane<br>
+    <input type="radio" name="question5">b) Carbon dioxide<br>
+    <input type="radio" name="question5">c) Nitrogrn oxide<br>
+    <input type="radio" name="question5">d) Methane<br>
+
+
+    <button type="submit" class="btn" onclick="result()">Submit</button><br>
+   
+  </form>
+</div>
+  </div>
+
+</div>
+<script type="text/javascript">
+  function result(){
+  //......
+  var score=0
+  if(document.getElementById('correct1').checked)
+  {
+    score++;
+  }
+   if(document.getElementById('correct2').checked)
+  {
+    score++;
+  } 
+  if(document.getElementById('correct3').checked)
+  {
+    score++;
+  } 
+  if(document.getElementById('correct4').checked)
+  {
+    score++;
+  } 
+  if(document.getElementById('correct5').checked)
+  {
+    score++;
+  }
+  document.write("Your score is "+score)
+}
+</script>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("open-button");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
