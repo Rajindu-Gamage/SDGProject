@@ -1,3 +1,4 @@
+/*home*/
 *{
   margin: 0;
   padding: 0;
@@ -748,6 +749,7 @@ footer{
  font-size: auto;
  }
 
+/*solutions*/
 *{
   margin: 0;
   padding: 0;
@@ -1054,6 +1056,7 @@ footer{
  }
 
 
+/*newsletter*/
  *{
   margin: 0;
   padding: 0;
@@ -1378,6 +1381,7 @@ footer{
  }
 
 
+/*aboutus*/
  *{
   margin: 0;
   padding: 0;
@@ -1654,6 +1658,8 @@ footer{
  font-size: auto;
  }
 
+
+/*contactus*/
  *{
   margin: 0;
   padding: 0;
@@ -2002,6 +2008,7 @@ footer{
  }
 
 
+/*ourwork*/
 *{
   margin: 0;
   padding: 0;
@@ -2344,7 +2351,7 @@ footer{
  font-size: auto;
  }
 
-
+/*news*/
 
 *{
   margin: 0;
@@ -2914,6 +2921,8 @@ footer{
  font-size: auto;
 }
 
+
+/*donate*/
 *{
     margin: 0;
     padding: 0;
@@ -2969,8 +2978,6 @@ body
 background: linear-gradient(to bottom right, #1ac6ff, #ffff1a) ;
 background-position: center;
     background-size: cover;
-
-
 }
 
 
@@ -3343,6 +3350,9 @@ footer{
  font-size: auto;
  }
 
+
+
+/*donateform*/
 *{
     margin: 0;
     padding: 0;
